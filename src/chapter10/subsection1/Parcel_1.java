@@ -1,6 +1,6 @@
 package chapter10.subsection1;
 
-public class Parcel1 {
+public class Parcel_1 {
 	class Contents {
 		private int i = 11;
 		public int value() { return i; }
@@ -18,7 +18,7 @@ public class Parcel1 {
 		System.out.println(d.readLabel());
 	}
 	public static void main(String[] args) {
-		Parcel1 p = new Parcel1();
+		Parcel_1 p = new Parcel_1();
 		p.ship("Tasmania");
 	}
 }
