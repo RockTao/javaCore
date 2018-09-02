@@ -1,6 +1,5 @@
 package chapter7.subsection_1;
 
-import core.util.*;
 	
 class Soap {
 	private String s;
