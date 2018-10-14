@@ -5,7 +5,7 @@ interface Waterproof {}
 interface Shoots {}
 
 class Toy {
-	Toy() {}
+//	Toy() {}
 	Toy(int i) {}
 }
 class FancyToy extends Toy
@@ -28,6 +28,8 @@ public class ToyTest2 {
 			System.exit(1);
 		}
 		printInfo(c);	
+		System.out.println("========================");
+
 		for(Class face : c.getInterfaces())
 			printInfo(face);
 		Class up = c.getSuperclass();
@@ -42,6 +44,7 @@ public class ToyTest2 {
 			System.out.println("Cannot access");
 			System.exit(1);
 		}
-		printInfo(obj.getClass());
+		System.out.println("========================");
+		printInfo( obj.getClass());
 	}
 } 
