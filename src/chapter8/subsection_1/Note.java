@@ -1,4 +1,4 @@
-package chapter8.subsection1;
+package chapter8.subsection_1;
 
 public enum Note {
     MIDDLE_C, C_SHARP, B_FLAT;

@@ -1,4 +1,4 @@
-package chapter8.subsection1;
+package chapter8.subsection_1;
 
 public class Music {
 	public static void tune(Instrument i) {

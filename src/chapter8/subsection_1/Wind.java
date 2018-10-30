@@ -1,4 +1,4 @@
-package chapter8.subsection1;
+package chapter8.subsection_1;
 
 public class Wind extends Instrument {
 	// Redefine interface method:

@@ -1,4 +1,4 @@
-package chapter8.subsection1;
+package chapter8.subsection_1;
 
 class Instrument {
 	public void play(Note n) {
