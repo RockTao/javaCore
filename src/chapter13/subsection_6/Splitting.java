@@ -1,4 +1,4 @@
-package chapter13.subsection6;
+package chapter13.subsection_6;
 
 import java.util.Arrays;
 
